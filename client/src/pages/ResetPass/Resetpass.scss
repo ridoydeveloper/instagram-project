@@ -1,0 +1,254 @@
+
+.reset-container {
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fafafa;
+
+    .login-wraper {
+
+        width: 388px;
+        // height: 396px;
+        border: 1px solid #dbdbdb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 45px;
+        background-color: #ffffff;
+  
+
+
+
+        .forgot-text{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            h2{
+                font-size: 16px;
+                color: #262626;
+                padding-bottom: 10px
+            }
+            span{
+
+                  font-size: 14px;
+                text-align: center;
+                font-weight: 400;
+                color: #8e8e8e ;
+                padding: 0px 35px;
+                margin-bottom: 10px;
+            }
+        }
+
+
+        
+     
+
+        a.login-logo-link {
+            margin-bottom: 25px;
+        }
+
+        .login-form{
+
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+          
+
+            .login-input{
+
+                width: 290px;
+                height: 38px;
+                gap: 6px;
+                margin: 0 40px;
+                border: 1px solid #dbdbdb ;
+            
+                font-size: 14px;
+                font-weight: 400;
+                background-color: #fafafa;
+                padding-left: 8px;
+                border-radius: 8px;
+                
+               
+            }
+
+            .login-submit{
+
+                width: 290px;
+                height: 30px;               
+                margin: 0 40px 6px;
+                margin-top: 8px;
+                margin-bottom: 35px;
+                border: 1px solid #00000000;
+                font-size: 12px;
+                font-weight: 400;
+                background-color: #b2dffc;
+                padding-left: 8px;
+                border-radius: 4px;
+                color: #ffffff;
+                font-weight: 500;
+                font-size: 14px;
+
+            }
+
+        }
+
+        .divider{
+
+
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 500;
+            color: #8e8e8e;
+            position: relative;
+            
+            text-align: center;
+            width: 77%;
+            height: 30px;
+
+            &::before {
+
+                content: '';
+                display: block;
+                clear: both;
+
+                width: 40%;
+                position: absolute;
+                height: 1px;
+                background-color: #dbdbdb;
+                left: 0;
+                top: 10px;
+            }
+
+            &::after {
+
+                content: '';
+                display: block;
+                clear: both;
+
+                width: 40%;
+                position: absolute;
+                height: 1px;
+                background-color: #dbdbdb;
+                right: 0px;
+                top: 10px;
+                
+            }
+
+        }
+        
+        .new-account{
+
+
+        text-decoration: none;
+        color: #262626;
+        font-size: 14px;
+        font-weight: 500;
+        display: inline-block;
+        margin-right: 8px;
+        position: relative;
+        top: 3px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+        
+
+      
+
+        }
+
+
+            
+    }
+
+
+    .back-to-login{
+
+        width: 386px;
+        
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid #dbdbdb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fafafa;
+
+
+       .signup-text{
+        color: #262626;
+        font-size: 14px;
+        
+        line-height: 18px;
+        font-weight: 400;
+
+      
+
+       }
+
+       .sign-up-link{
+        
+        color: #262626;
+        font-size: 14px;
+       
+        font-weight: 500;
+
+        
+        text-decoration: none;
+    }
+
+       
+
+    
+}
+
+
+.get-app{
+
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+
+    .app-text{
+
+        font-size: 14px;
+        line-height: 18px;
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+
+    }
+    
+
+    .app-logo{
+    
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        padding-bottom: 130px;
+
+        img{
+            
+            height: 40px;
+            
+        }
+
+    }
+
+
+}
+
+   
+    
+}
+
+
+

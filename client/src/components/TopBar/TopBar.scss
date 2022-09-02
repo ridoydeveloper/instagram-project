@@ -1,0 +1,112 @@
+
+.top-bar-container{
+
+    background-color:#ffffff ;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+
+
+    .top-bar-wraper{
+
+        width: 975px;
+        height: 58px;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+
+        .logo{
+            
+           img{
+            width: 104px ;
+            padding-top: 5px;
+           
+            
+           }
+
+        }
+
+        .search-box{
+
+            background-color: #efefef;
+            width: 268px;
+            height: 36px;
+            
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 176px;
+            
+
+
+            button{
+
+                border: none;
+                font-size: 17px;
+                color: #a6a6a6;
+                padding-left: 15px;
+                padding-bottom: 3px;
+                
+                
+
+            }
+
+            input{
+
+                border: none;
+                background-color: #efefef;
+                font-weight: 300;
+                font-size: 15px;
+                padding-right: 57px;
+                padding-top: 3px;
+
+            }
+
+        }
+
+        .top-bar-menu{
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                gap: 22px;
+                align-items: center;
+                padding: 14px 0px 0px 32px;
+
+                li{
+                    a{
+                        img{
+                            height: 25px;
+                            width: 25px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+
+                .log-out-btn{
+
+                    border: none;
+                    font-size: 12px;
+                    color: #dbdbdb;
+                    font-weight: 500;
+                    background-color: #ffffff;
+                    
+                    &:hover{
+                     
+                        color: #a6a6a6;
+                        font-weight: 500;
+
+                    }
+                
+                }
+            }
+        }
+    }
+
+
+
+   
+}
